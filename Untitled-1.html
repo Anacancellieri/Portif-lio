@@ -1,0 +1,66 @@
+<!DOCTYPE html>  <!-- aqui esta a criação do html e seu corpo-->
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Ana</title>
+  <link rel="stylesheet" href="body {.css"> <!-- esse link está vinculando o css-->
+</head>
+<body>
+  <header>
+    <h1>Sejam Bem-Vindos ao meu Portfólio!</h1>   <!-- nesse cabeçalho está as informações iniciais-->
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-centralizado">  
+     <img src="c:\Users\anaca\OneDrive\Imagens\Saved Pictures\foto minha.jpg" alt="Foto de Ana Caroline" class="foto-perfil">   <!-- nessa parte está o link da foto que está no site-->
+     <p>Meu nome é Ana Caroline Cancellieri, tenho 21 anos e estudo tecnologia em análise e desenvolvimento de sistemas. Trabalho em uma empresa com foco em atendimento ao cliente, e no meu tempo livre amo ouvir música e ler, como se eu pudesse ir para um outro universo paralelo mas permanecer no meu, algo mágico, mas também gosto de viajar e visitar lugares que nunca fui antes, ou apenas ir a praia para descontrair.</p>
+    </div>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação e Idiomas</h2>
+    <ul>
+      <li>Ensino Médio Completo - E.E. Mercedes Vaventina Giannocário</li>
+      <li>Curso Preparatório para o Exército - City Computer</li>
+      <li>Curso: Análise e Desenvolvimento de Sistemas - UNINTER</li>
+      <li>Idiomas: Português (fluente) / Inglês (intermediário)</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">  <!--nessa seção está os dois links anexados que direcionam para meus projeto utilizando o comando href-->
+    <h2>Portfólio</h2>
+    <p>Veja abaixo alguns trabalhos que eu desenvolvi durante o curso:</p>
+    <ul>
+      <li><a href="https://github.com/Anacancellieri/sistema-loja-python" target="_blank">Projeto 1 - Sistema em Python de uma loja de varejo</a></li>
+      <li><a href="https://github.com/Anacancellieri/sistema-fotocopia-python" target="_blank">Projeto 2 - Sistema em Python de empresa de fotocópia</a></li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>     <!-- aqui foi criado campos para preencher informações , com o botão criado para envia-las-->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+  
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  
+  

@@ -1,0 +1,104 @@
+html { /* Faz a rolagem entre seções ser suave */
+  scroll-behavior: smooth;
+}
+
+body { /* Fonte, fundo e espaço para compensar o header fixo */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cfccccc1;
+  padding-top: 130px; /* Espaço para o header fixo */
+}
+
+header { /* Cabeçalho fixo no topo da página */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ba4dec;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul { /* Lista de navegação */
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a { /* Links do menu */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section { /* Todas as seções (Sobre, Formação, etc.) */
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form { /* Formulário de contato */
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea { /* Campos do formulário */
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button { /* Botão do formulário */
+  background-color: #ba4dec;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover { /* Efeito ao passar o mouse no botão */
+  background-color: #ba4dec;
+}
+
+footer { /* Rodapé da página */
+  text-align: center;
+  padding: 20px;
+  background-color: #4a90e2;
+  color: white;
+  margin-top: 40px;
+}
+
+.sobre-centralizado { /* Centraliza o conteúdo da seção "Sobre Mim" */
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.foto-perfil { /* Foto de perfil redonda */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ba4dec;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
